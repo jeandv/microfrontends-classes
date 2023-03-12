@@ -1,2 +1,2 @@
-# module-federation-class
-Sesion Microfrontends II - Module federation class
+# microfrontends-classes
+Sesion Microfrontends - Module federation
