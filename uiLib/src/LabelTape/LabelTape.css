@@ -1,0 +1,20 @@
+
+
+.ui-label {
+  align-items: center;
+  width: 55px;
+  padding: 4px;
+  font-size: 10px;
+}
+
+.ui-label--4dx{
+  background-color: #3376FE;
+}
+
+.ui-label--promotions {
+  background-color: #ffff83;
+}
+
+.ui-label--discount {
+  background-color: #0AC170;
+}
