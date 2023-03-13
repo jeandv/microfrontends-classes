@@ -4,10 +4,6 @@
   padding: 10px;
   transition: all 300ms;
 
-  &:hover {
-    background-color: #000;
-  }
-
 }
 
 .ui-button-primary {
