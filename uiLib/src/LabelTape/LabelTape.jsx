@@ -24,8 +24,8 @@ LabelTape.propTypes = {
 };
 
 LabelTape.defaultProps = {
-  variant: 'promotions',
-  label: 'Promociones',
+  variant: 'discount',
+  label: 'Descuentos',
 };
 
 export default LabelTape;

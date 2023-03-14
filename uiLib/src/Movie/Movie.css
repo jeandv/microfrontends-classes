@@ -1,19 +1,35 @@
 .ui-movie {
-  width: 24px;
-  font-family: monospace;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 150px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .ui-movie-img {
   height: 230px;
-  width: 100%;  
+  width: 150px;  
   }
 
 .ui-movie-img>img {
+  height: 100%;
   width: 100%;
 }
 
 .ui-movie-title {
+  width: 100%;
+  background-color: #e9e9e9b9;
+  border-radius: 0 0 5px 5px;
+}
+
+.ui-movie-title > h4 {
+  margin: 0;
+  padding: 10px 0;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
   color: #000;
-  font-weight: 700;
+  font-weight: 300;
+  font-size: 16px;
   text-align: center;
 }

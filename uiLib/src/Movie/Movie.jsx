@@ -6,8 +6,8 @@ import './Movie.css';
 const Movie = ({ title, imgUrl }) => {
   return (
     <div className='ui-movie'>
+      <LabelTape label='Preventa' variant='discount' />
       <div className='ui-movie-img'>
-        <LabelTape lebel='Preventa' variant='primary' />
         <img src={imgUrl} alt={title} />
       </div>
       <div className='ui-movie-title'>

@@ -1,10 +1,16 @@
 
 
 .ui-label {
+  position: relative;
+  top: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
   align-items: center;
-  width: 55px;
+  align-items: center;
+  width: 80px;
   padding: 4px;
-  font-size: 10px;
+  font-size: 16px;
 }
 
 .ui-label--4dx{
