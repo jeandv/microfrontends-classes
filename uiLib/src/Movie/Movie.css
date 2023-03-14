@@ -1,0 +1,19 @@
+.ui-movie {
+  width: 24px;
+  font-family: monospace;
+}
+
+.ui-movie-img {
+  height: 230px;
+  width: 100%;  
+  }
+
+.ui-movie-img>img {
+  width: 100%;
+}
+
+.ui-movie-title {
+  color: #000;
+  font-weight: 700;
+  text-align: center;
+}
