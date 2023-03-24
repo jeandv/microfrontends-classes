@@ -7,6 +7,13 @@ export default {
   component: Movie,
 };
 
-const Template = (args) => <Movie {...args} />;
+const CartelTemplate = (args) => <Movie {...args} />;
 
-export const Primary = Template.bind({});
+export const Primary = CartelTemplate.bind({});
+
+// Cartel.args = {
+//   label: 'Promociones',
+//   variant: undefined,
+//   movieTitle: 'Movie 01',
+//   src: 'https://static.cinepolis.com/img/peliculas/41818/1/1/41818.jpg',
+// };
