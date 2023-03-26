@@ -1,5 +1,33 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Changes when is hovered 1`] = `
+<button
+  backgroundColor={null}
+  className="ui-button undefined"
+  label="Hello"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  primary={false}
+  size="medium"
+>
+  Hello
+</button>
+`;
+
+exports[`Changes when is hovered 2`] = `
+<button
+  backgroundColor={null}
+  className="ui-button undefined"
+  label="Hello"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  primary={false}
+  size="medium"
+>
+  Hello
+</button>
+`;
+
 exports[`Renders correctly 1`] = `
 <button
   backgroundColor={null}

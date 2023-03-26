@@ -1,14 +1,30 @@
-import React from 'react';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import './Button.css';
 
+const STATUS = {
+  HOVERED: 'hovered',
+  NORMAL: 'normal',
+};
+
 const Button = ({ variant, ...props }) => {
+  const [status, setStatus] = useState(STATUS.NORMAL);
+  const onMouseEnter = () => {
+    setStatus(STATUS.HOVERED);
+  };
+
+  const onMouseLeave = () => {
+    setStatus(STATUS.NORMAL);
+  };
+
   return (
     <button
       className={`ui-button ${variant && 'ui-button-' + variant}`}
+      onMouseEnter={onMouseEnter}
+      onMouseLeave={onMouseLeave}
       {...props}
     >
-      OLLLI!
+      Hello
     </button>
   );
 };
