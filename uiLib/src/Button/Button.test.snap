@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders correctly 1`] = `
+<button
+  backgroundColor={null}
+  className="ui-button undefined"
+  label="OLLLI!"
+  primary={false}
+  size="medium"
+>
+  OLLLI!
+</button>
+`;

@@ -8,7 +8,7 @@ const Button = ({ variant, ...props }) => {
       className={`ui-button ${variant && 'ui-button-' + variant}`}
       {...props}
     >
-      Button 01
+      OLLLI!
     </button>
   );
 };
