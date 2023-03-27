@@ -7,8 +7,11 @@ const STATUS = {
   NORMAL: 'normal',
 };
 
-const Button = ({ variant, ...props }) => {
+const Button = ({ primary, backgroundColor, size, label, ...props }) => {
+  const mode = primary ? 'ui-button--primary' : 'ui-button--secondary';
+
   const [status, setStatus] = useState(STATUS.NORMAL);
+
   const onMouseEnter = () => {
     setStatus(STATUS.HOVERED);
   };
@@ -19,12 +22,14 @@ const Button = ({ variant, ...props }) => {
 
   return (
     <button
-      className={`ui-button ${variant && 'ui-button-' + variant}`}
+      type='button'
+      className={['ui-button', `ui-button--${size}`, mode].join(' ')}
+      style={backgroundColor && { backgroundColor }}
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
       {...props}
     >
-      Hello
+      {label}
     </button>
   );
 };

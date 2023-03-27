@@ -2,13 +2,11 @@
 
 exports[`Changes when is hovered 1`] = `
 <button
-  backgroundColor={null}
-  className="ui-button undefined"
-  label="Hello"
+  className="ui-button ui-button--medium ui-button--secondary"
   onMouseEnter={[Function]}
   onMouseLeave={[Function]}
-  primary={false}
-  size="medium"
+  style={null}
+  type="button"
 >
   Hello
 </button>
@@ -16,13 +14,11 @@ exports[`Changes when is hovered 1`] = `
 
 exports[`Changes when is hovered 2`] = `
 <button
-  backgroundColor={null}
-  className="ui-button undefined"
-  label="Hello"
+  className="ui-button ui-button--medium ui-button--secondary"
   onMouseEnter={[Function]}
   onMouseLeave={[Function]}
-  primary={false}
-  size="medium"
+  style={null}
+  type="button"
 >
   Hello
 </button>
@@ -30,12 +26,12 @@ exports[`Changes when is hovered 2`] = `
 
 exports[`Renders correctly 1`] = `
 <button
-  backgroundColor={null}
-  className="ui-button undefined"
-  label="OLLLI!"
-  primary={false}
-  size="medium"
+  className="ui-button ui-button--medium ui-button--secondary"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  style={null}
+  type="button"
 >
-  OLLLI!
+  Hello
 </button>
 `;

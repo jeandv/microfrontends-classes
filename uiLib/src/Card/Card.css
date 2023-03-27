@@ -1,11 +1,12 @@
 .ui-card {
-	color: #000;
+	font-weight: 400;
+	color: #3a3a3c;
 	border-radius: 10px;
-	box-shadow: 1px 2px 8px  #333;
+	box-shadow: 1px 2px 8px #8f8fa4;
 	padding: 16px;
 }
 
 .ui-card-title {
-	border-bottom: 1px solid #333;
+	border-bottom: 1px solid #8f8fa4;
 	margin: 0 0 1em;
 }

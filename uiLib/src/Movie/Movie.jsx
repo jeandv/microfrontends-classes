@@ -1,47 +1,51 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+
 import LabelTape from '../LabelTape/LabelTape';
+
 import './Movie.css';
 
-const Movie = ({ title, imgUrl }) => {
+export default function Movie({
+  variant,
+  label,
+  movieTitle,
+  imgUrl,
+  ...props
+}) {
   return (
-    <div className='ui-movie'>
-      <LabelTape label='Preventa' variant='discount' />
+    <div className='ui-movie' {...props}>
       <div className='ui-movie-img'>
-        <img src={imgUrl} alt={title} />
+        <img src={imgUrl} alt={movieTitle} className='ui-movie-img-asset' />
+        {variant != undefined && <LabelTape label={label} variant={variant} />}
       </div>
-      <div className='ui-movie-title'>
-        <h4 className='ui-movie-title-text'>{title}</h4>
+      <div
+        className={['ui-movie-title', `ui-movie-title--${variant}`].join(' ')}
+      >
+        <h4 className='ui-movie-title-text'>{movieTitle}</h4>
       </div>
     </div>
   );
-};
+}
 
 Movie.propTypes = {
   /**
-   * What color should the button be?
+   * Defines label background colors.
    */
-  variant: PropTypes.oneOf(['right', 'left', 'diagonal']),
+  variant: PropTypes.oneOf(['discount', 'promotions', '4dx']),
   /**
-   * Label text (Required)
+   * Label text
    */
-  label: PropTypes.string.isRequired,
+  label: PropTypes.string,
   /**
    * Movie title (Required)
    */
-  title: PropTypes.string.isRequired,
-  /**
-   * URL Image title (Required)
-   */
-  imgUrl: PropTypes.string.isRequired,
+  movieTitle: PropTypes.string.isRequired,
 };
 
 Movie.defaultProps = {
   variant: 'promotions',
   imgUrl:
     'https://images.complex.com/complex/images/c_fill,dpr_auto,f_auto,q_auto,w_1400/fl_lossy,pg_1/gdv2pu6io6ekpg5r8mta/back-to-the-future?fimg-ssr-default',
-  title: 'Movie title',
+  movieTitle: 'Movie title',
   label: 'Promociones',
 };
-
-export default Movie;

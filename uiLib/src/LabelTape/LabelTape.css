@@ -1,26 +1,24 @@
-
-
 .ui-label {
-  position: relative;
-  top: 25px;
-  font-family: Arial, Helvetica, sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-items: center;
-  width: 80px;
+  width: 75px;
   padding: 4px;
-  font-size: 16px;
+  font-size: 10px;
+  text-align: center;
+  transform: rotate(-45deg) translate(-24px, -6px);
+  position: absolute;
+  top: 0;
 }
 
-.ui-label--4dx{
-  background-color: #3376FE;
+.ui-label--4dx {
+  background-color: #9bf;
+  color: #fff;
 }
 
 .ui-label--promotions {
-  background-color: #ffff83;
+  background-color: #fc0;
 }
 
 .ui-label--discount {
-  background-color: #0AC170;
+  background-color: #0ac170;
+  color: #fff;
+  font-weight: 600;
 }

@@ -1,12 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-// Components
-
-// Styles
 import './Card.css';
 
-export const Card = ({ title, children, ...props }) => {
+const Card = ({ title, children, ...props }) => {
   return (
     <div className='ui-card' {...props}>
       <h3 className='ui-card-title'>{title}</h3>
@@ -25,3 +22,5 @@ Card.propTypes = {
 Card.defaultProps = {
   title: 'Hi',
 };
+
+export default Card;

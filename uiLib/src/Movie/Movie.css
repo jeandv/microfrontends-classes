@@ -1,35 +1,76 @@
 .ui-movie {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-direction: column;
-  width: 150px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  width: 140px;
+  overflow: hidden;
+  border-radius: 5px;
 }
 
 .ui-movie-img {
-  height: 230px;
-  width: 150px;  
-  }
+  background-color: #3376fe;
+  height: 204px;
+  position: relative;
+}
 
-.ui-movie-img>img {
-  height: 100%;
+.ui-movie-img-asset {
+  object-fit: contain;
   width: 100%;
 }
 
 .ui-movie-title {
-  width: 100%;
-  background-color: #e9e9e9b9;
-  border-radius: 0 0 5px 5px;
+  background-color: #8f8fa4;
+  text-align: center;
+  padding: 2px 0;
+  position: relative;
 }
 
-.ui-movie-title > h4 {
+.ui-movie-title:after {
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  content: "";
+  height: 0;
+  position: absolute;
+  right: 12px;
+  top: -10px;
+  width: 0;
+  z-index: 99;
+}
+
+.ui-movie-title--4dx {
+  background-color: #9bf;
+}
+
+.ui-movie-title--4dx .ui-movie-title-text {
+  color: white;
+}
+
+.ui-movie-title--4dx:after {
+  border-bottom: 12px solid #9bf;
+}
+
+.ui-movie-title--promotions {
+  background-color: #fc0;
+}
+
+.ui-movie-title--promotions .ui-movie-title-text {
+  color: #3a3a3c;
+}
+
+.ui-movie-title--promotions:after {
+  border-bottom: 12px solid #fc0;
+}
+
+.ui-movie-title--discount {
+  background-color: #0ac170;
+}
+
+.ui-movie-title--discount .ui-movie-title-text {
+  color: white;
+  font-weight: 700;
+}
+
+.ui-movie-title-text {
+  color: white;
   margin: 0;
-  padding: 10px 0;
-  font-family: Arial, Helvetica, sans-serif;
-  width: 100%;
-  color: #000;
   font-weight: 300;
-  font-size: 16px;
-  text-align: center;
+  font-size: 0.95em;
 }
