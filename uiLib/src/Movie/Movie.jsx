@@ -42,10 +42,10 @@ Movie.propTypes = {
   movieTitle: PropTypes.string.isRequired,
 };
 
-Movie.defaultProps = {
-  variant: 'promotions',
-  imgUrl:
-    'https://images.complex.com/complex/images/c_fill,dpr_auto,f_auto,q_auto,w_1400/fl_lossy,pg_1/gdv2pu6io6ekpg5r8mta/back-to-the-future?fimg-ssr-default',
-  movieTitle: 'Movie title',
-  label: 'Promociones',
-};
+// Movie.defaultProps = {
+//   variant: 'promotions',
+//   imgUrl:
+//     'https://images.complex.com/complex/images/c_fill,dpr_auto,f_auto,q_auto,w_1400/fl_lossy,pg_1/gdv2pu6io6ekpg5r8mta/back-to-the-future?fimg-ssr-default',
+//   movieTitle: 'Movie title',
+//   label: 'Promociones',
+// };

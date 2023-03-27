@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render with label 1`] = `
+<div
+  className="ui-movie"
+>
+  <div
+    className="ui-movie-img"
+  >
+    <img
+      alt="John Wick 4"
+      className="ui-movie-img-asset"
+      src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/56c72e90-7908-4970-8e1b-b5b7098f4fda/df4gi93-bb27d107-8b1f-4dec-97f1-815424419af6.png/v1/fill/w_1280,h_1811,q_80,strp/john_wick_4___poster_v1_by_pyramid3_df4gi93-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTgxMSIsInBhdGgiOiJcL2ZcLzU2YzcyZTkwLTc5MDgtNDk3MC04ZTFiLWI1YjcwOThmNGZkYVwvZGY0Z2k5My1iYjI3ZDEwNy04YjFmLTRkZWMtOTdmMS04MTU0MjQ0MTlhZjYucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.xsATywrHQvyQFggEG8sGHffq7CApdMWZn7FJ9C_CgEA"
+    />
+    <div
+      className="ui-label ui-label--4dx"
+    >
+      4DX
+    </div>
+  </div>
+  <div
+    className="ui-movie-title ui-movie-title--4dx"
+  >
+    <h4
+      className="ui-movie-title-text"
+    >
+      John Wick 4
+    </h4>
+  </div>
+</div>
+`;
+
+exports[`render without label 1`] = `
+<div
+  className="ui-movie"
+>
+  <div
+    className="ui-movie-img"
+  >
+    <img
+      alt="John Wick 4"
+      className="ui-movie-img-asset"
+      src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/56c72e90-7908-4970-8e1b-b5b7098f4fda/df4gi93-bb27d107-8b1f-4dec-97f1-815424419af6.png/v1/fill/w_1280,h_1811,q_80,strp/john_wick_4___poster_v1_by_pyramid3_df4gi93-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTgxMSIsInBhdGgiOiJcL2ZcLzU2YzcyZTkwLTc5MDgtNDk3MC04ZTFiLWI1YjcwOThmNGZkYVwvZGY0Z2k5My1iYjI3ZDEwNy04YjFmLTRkZWMtOTdmMS04MTU0MjQ0MTlhZjYucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.xsATywrHQvyQFggEG8sGHffq7CApdMWZn7FJ9C_CgEA"
+    />
+  </div>
+  <div
+    className="ui-movie-title ui-movie-title--undefined"
+  >
+    <h4
+      className="ui-movie-title-text"
+    >
+      John Wick 4
+    </h4>
+  </div>
+</div>
+`;
